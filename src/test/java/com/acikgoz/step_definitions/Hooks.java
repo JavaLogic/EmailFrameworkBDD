@@ -21,7 +21,7 @@ public class Hooks {
     }
 
 
-//    @After
+    @After
     public void tearDownScenario(Scenario scenario){
         System.out.println("Reporting the results");
 
